@@ -1,4 +1,4 @@
-import { Question, Answer, GameResult } from '../types';
+import type { Question, Answer, GameResult } from '../types';
 
 const SCRIPT_URL = import.meta.env.VITE_GOOGLE_APP_SCRIPT_URL;
 

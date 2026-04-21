@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Question, Answer, GameResult } from './types';
+import type { Question, Answer, GameResult } from './types';
 
 interface GameState {
   screen: 'start' | 'loading' | 'quiz' | 'result';
