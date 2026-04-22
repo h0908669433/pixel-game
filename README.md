@@ -39,6 +39,6 @@
 2. 在左側選單找到 **Pages**。
 3. 在 **Build and deployment** 區塊，將 Source 設定為 **GitHub Actions**。
 
-### 觸發部署
+### 觸發部署 
 
 只要你將程式碼推送到 `main` 分支，GitHub Actions 就會自動開始建置並部署。你可以在儲存庫的 **Actions** 頁籤中查看進度。部署成功後，GitHub 會提供一組 `https://<你的帳號>.github.io/<專案名稱>/` 的網址供你遊玩！ 
