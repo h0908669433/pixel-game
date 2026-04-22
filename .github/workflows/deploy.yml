@@ -41,7 +41,7 @@ jobs:
       - name: Build project
         env:
           # 從 GitHub Repository Secrets 讀取環境變數並注入到建置過程中
-          VITE_GOOGLE_APP_SCRIPT_URL: ${{ secrets.VITE_GOOGLE_APP_SCRIPT_URL }}
+          VITE_GOOGLE_APP_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzxCnNSjva-Rn92czxmeQDEXCR1Hw9qyL9l03BOJK9_G6DXY4dt_EPKuPfuQSF-2_QZ/exec"
           VITE_PASS_THRESHOLD: ${{ secrets.VITE_PASS_THRESHOLD || '3' }}
           VITE_QUESTION_COUNT: ${{ secrets.VITE_QUESTION_COUNT || '5' }}
         run: npm run build
